@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "exec-sh": "^0.4.0"
+    "exec-sh": "^0.4.0",
+    "tree-kill": "^1.2.2"
   }
 }
