@@ -7,8 +7,14 @@ this script is used to forward youtube streams to Aparat's RTMP server (or any R
 
 You can host this script on Rep.it, Heroku or Glitch.
 
+then run the server by `node app.js` command
+
 [DEMO](https://www.aparat.com/ChillClub/live)
+
+
 [RUNNING CODE](https://glitch.com/edit/#!/ash-extreme-carriage)
+
+
 
 
 ## Env
