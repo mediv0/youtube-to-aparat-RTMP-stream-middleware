@@ -15,7 +15,7 @@ const URL = process.env.URL;
 const YOUTUBEURL = process.env.YOUTUBE;
 
 const getNewUrl = (cb) => {
-    exec(`./youtube-dl -g ${YOUTUBEURL}`, (error, stdout, stderr) => {
+    exec(`./yt-dlp_linux -g ${YOUTUBEURL}`, (error, stdout, stderr) => {
         cb(stdout.trim());
     });
 };
