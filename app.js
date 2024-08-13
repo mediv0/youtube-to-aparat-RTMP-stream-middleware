@@ -2,7 +2,7 @@ const { exec, spawn } = require("child_process");
 const kill = require("tree-kill");
 const execSh = require("exec-sh");
 const http = require("http");
-exec("chmod +777 ./youtube-dl");
+exec("chmod +777 ./yt-dlp_linux");
 
 const app = http.createServer(function (req, res) {
     res.writeHead(200, { "Content-Type": "text/plain" });
